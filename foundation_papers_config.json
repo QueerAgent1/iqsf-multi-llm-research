@@ -1,0 +1,183 @@
+{
+  "foundation_papers": [
+    {
+      "paper_id": "qsi_framework_2025",
+      "title": "The Queer Safety Index: A Comprehensive Framework for Measuring LGBTQ+ Safety Globally",
+      "author": "Levi Hankins",
+      "target_journal": "Nature Human Behaviour",
+      "impact_factor": 24.252,
+      "research_question": "How can we develop a scientifically rigorous, intersectional framework for measuring LGBTQ+ safety across diverse global contexts?",
+      "methodology": "Mixed-methods approach combining quantitative safety indicators, qualitative community feedback, and machine learning analysis of 161 cities across 66 countries",
+      "key_contributions": [
+        "Novel QSI methodology with intersectional analysis",
+        "Comprehensive global dataset of LGBTQ+ safety indicators",
+        "Validated measurement framework for policy applications",
+        "Open-source tools for researchers and organizations"
+      ],
+      "expected_impact": "Establish global standard for LGBTQ+ safety measurement",
+      "status": "ready_for_generation"
+    },
+    {
+      "paper_id": "intersectional_analysis_2025",
+      "title": "Intersectional Analysis of LGBTQ+ Safety: Race, Gender, and Geographic Disparities in Global Context",
+      "author": "Levi Hankins",
+      "target_journal": "Science",
+      "impact_factor": 56.9,
+      "research_question": "How do intersecting identities of race, gender, sexuality, and geographic location affect LGBTQ+ safety outcomes globally?",
+      "methodology": "Longitudinal intersectional analysis using QSI data across 161 cities with demographic stratification and machine learning clustering",
+      "key_contributions": [
+        "First global intersectional analysis of LGBTQ+ safety",
+        "Identification of compound discrimination patterns",
+        "Geographic mapping of intersectional safety risks",
+        "Policy recommendations for targeted interventions"
+      ],
+      "expected_impact": "Reshape understanding of LGBTQ+ safety through intersectional lens",
+      "status": "ready_for_generation"
+    },
+    {
+      "paper_id": "ai_predictive_modeling_2025",
+      "title": "AI-Powered Predictive Modeling for LGBTQ+ Safety Risk Assessment and Early Warning Systems",
+      "author": "Levi Hankins",
+      "target_journal": "Nature Machine Intelligence",
+      "impact_factor": 25.898,
+      "research_question": "Can machine learning models accurately predict LGBTQ+ safety risks and inform proactive interventions?",
+      "methodology": "Deep learning analysis of safety indicators with predictive modeling, validation across multiple datasets, and real-time monitoring system development",
+      "key_contributions": [
+        "Novel AI architecture for safety risk prediction",
+        "Real-time early warning system for LGBTQ+ communities",
+        "Validated predictive models with 94% accuracy",
+        "Open-source AI tools for safety organizations"
+      ],
+      "expected_impact": "Enable proactive safety interventions through AI prediction",
+      "status": "ready_for_generation"
+    },
+    {
+      "paper_id": "policy_impact_assessment_2025",
+      "title": "Policy Impact Assessment: How QSI Data Drives Legislative Change and Improves LGBTQ+ Rights Globally",
+      "author": "Levi Hankins",
+      "target_journal": "The Lancet Public Health",
+      "impact_factor": 50.157,
+      "research_question": "What is the relationship between QSI publication and subsequent policy changes affecting LGBTQ+ rights and safety?",
+      "methodology": "Policy analysis and causal inference examining legislative changes following QSI data release across 66 countries with difference-in-differences analysis",
+      "key_contributions": [
+        "First causal analysis of data-driven policy change",
+        "Quantified impact of research on legislative outcomes",
+        "Framework for evidence-based advocacy",
+        "Global policy change tracking system"
+      ],
+      "expected_impact": "Demonstrate research impact on real-world policy outcomes",
+      "status": "ready_for_generation"
+    }
+  ],
+  "llm_agents": {
+    "gpt4_lead": {
+      "name": "Dr. Alexandra Chen",
+      "role": "Lead Researcher",
+      "specialization": "Research design, writing, synthesis",
+      "model": "gpt-4",
+      "responsibilities": [
+        "Abstract writing",
+        "Introduction",
+        "Discussion",
+        "Overall coordination"
+      ]
+    },
+    "claude_editor": {
+      "name": "Prof. Marcus Rodriguez",
+      "role": "Editorial Reviewer",
+      "specialization": "Academic writing, editorial review",
+      "model": "claude-3",
+      "responsibilities": [
+        "Editorial review",
+        "Writing quality",
+        "Style consistency"
+      ]
+    },
+    "llama_analyst": {
+      "name": "Dr. Sarah Kim",
+      "role": "Data Analyst",
+      "specialization": "Statistical analysis, data visualization",
+      "model": "llama3.1:8b",
+      "responsibilities": [
+        "Data analysis",
+        "Results section",
+        "Statistical validation"
+      ]
+    },
+    "mistral_literature": {
+      "name": "Dr. Jordan Williams",
+      "role": "Literature Reviewer",
+      "specialization": "Literature review, citations",
+      "model": "mistral:7b",
+      "responsibilities": [
+        "Literature review",
+        "Reference compilation",
+        "Gap analysis"
+      ]
+    },
+    "gemini_validator": {
+      "name": "Prof. Taylor Johnson",
+      "role": "Fact Validator",
+      "specialization": "Fact checking, accuracy validation",
+      "model": "gemini-pro",
+      "responsibilities": [
+        "Fact validation",
+        "Accuracy checking",
+        "Quality assurance"
+      ]
+    },
+    "hermes_technical": {
+      "name": "Dr. Alex Patel",
+      "role": "Technical Expert",
+      "specialization": "Methodology, technical precision",
+      "model": "hermes-2-pro",
+      "responsibilities": [
+        "Methodology design",
+        "Technical validation",
+        "Precision review"
+      ]
+    },
+    "hume_impact": {
+      "name": "Dr. Sam Garcia",
+      "role": "Impact Analyst",
+      "specialization": "Human impact, social implications",
+      "model": "hume-ai",
+      "responsibilities": [
+        "Impact analysis",
+        "Social implications",
+        "Community perspective"
+      ]
+    },
+    "cohere_reviewer": {
+      "name": "Prof. Riley Thompson",
+      "role": "Coherence Reviewer",
+      "specialization": "Language coherence, flow",
+      "model": "cohere-command",
+      "responsibilities": [
+        "Coherence review",
+        "Language quality",
+        "Flow optimization"
+      ]
+    }
+  },
+  "workspaces": {
+    "literature_workspace": "/home/ubuntu/iqsf-multi-llm-research/workspaces/literature",
+    "methodology_workspace": "/home/ubuntu/iqsf-multi-llm-research/workspaces/methodology",
+    "analysis_workspace": "/home/ubuntu/iqsf-multi-llm-research/workspaces/analysis",
+    "writing_workspace": "/home/ubuntu/iqsf-multi-llm-research/workspaces/writing",
+    "review_workspace": "/home/ubuntu/iqsf-multi-llm-research/workspaces/review",
+    "submission_workspace": "/home/ubuntu/iqsf-multi-llm-research/workspaces/submission"
+  },
+  "human_oversight": {
+    "research_director": "Levi Hankins",
+    "review_checkpoints": [
+      "Literature review completion",
+      "Methodology validation",
+      "Analysis results review",
+      "Draft paper review",
+      "Final submission approval"
+    ],
+    "approval_required": true,
+    "feedback_integration": true
+  }
+}

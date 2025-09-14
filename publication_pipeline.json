@@ -1,0 +1,118 @@
+{
+  "pipeline_stages": [
+    {
+      "stage": "literature_review",
+      "agents": [
+        "mistral_literature",
+        "gpt4_lead",
+        "gemini_validator"
+      ],
+      "outputs": [
+        "search_strategy",
+        "key_papers",
+        "research_gaps",
+        "theoretical_framework"
+      ],
+      "human_checkpoint": true
+    },
+    {
+      "stage": "methodology_development",
+      "agents": [
+        "hermes_technical",
+        "llama_analyst",
+        "gpt4_lead"
+      ],
+      "outputs": [
+        "research_design",
+        "statistical_plan",
+        "quality_assurance"
+      ],
+      "human_checkpoint": true
+    },
+    {
+      "stage": "data_analysis",
+      "agents": [
+        "llama_analyst",
+        "hermes_technical",
+        "gemini_validator"
+      ],
+      "outputs": [
+        "statistical_results",
+        "effect_sizes",
+        "visualizations"
+      ],
+      "human_checkpoint": true
+    },
+    {
+      "stage": "paper_writing",
+      "agents": [
+        "gpt4_lead",
+        "hermes_technical",
+        "llama_analyst",
+        "hume_impact"
+      ],
+      "outputs": [
+        "abstract",
+        "introduction",
+        "methods",
+        "results",
+        "discussion"
+      ],
+      "human_checkpoint": false
+    },
+    {
+      "stage": "multi_llm_review",
+      "agents": [
+        "claude_editor",
+        "cohere_reviewer",
+        "gemini_validator"
+      ],
+      "outputs": [
+        "editorial_review",
+        "coherence_review",
+        "accuracy_review"
+      ],
+      "human_checkpoint": false
+    },
+    {
+      "stage": "final_integration",
+      "agents": [
+        "gpt4_lead"
+      ],
+      "outputs": [
+        "final_manuscript",
+        "figures",
+        "tables",
+        "supplementary"
+      ],
+      "human_checkpoint": true
+    },
+    {
+      "stage": "submission_preparation",
+      "agents": [
+        "claude_editor",
+        "hermes_technical"
+      ],
+      "outputs": [
+        "formatted_manuscript",
+        "cover_letter",
+        "submission_package"
+      ],
+      "human_checkpoint": true
+    }
+  ],
+  "quality_gates": [
+    "Literature completeness check",
+    "Methodology rigor validation",
+    "Statistical accuracy verification",
+    "Writing quality assessment",
+    "Journal compliance check"
+  ],
+  "success_metrics": [
+    "Peer review acceptance rate",
+    "Citation impact",
+    "Policy influence",
+    "Media coverage",
+    "Academic recognition"
+  ]
+}
